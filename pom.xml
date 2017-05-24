@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.arpit</groupId>
-    <artifactId>spring.opencv</artifactId>
+    <groupId>in.gvc</groupId>
+    <artifactId>instant.capture.cloud</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 
@@ -87,7 +87,6 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <build>
-                <finalName>ROOT</finalName>
                 <plugins>
 
                     <plugin>
@@ -100,7 +99,6 @@
                                 </goals>
                                 <configuration>
                                     <outputDirectory>deployments</outputDirectory>
-                                    <finalName>ROOT</finalName>
                                 </configuration>
                             </execution>
                         </executions>
